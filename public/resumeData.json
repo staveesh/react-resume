@@ -15,7 +15,7 @@
       "state":"Indirapuram",
       "zip": "Ghaziabad"
     },
-    "website": "http://staveesh.github.io/react-resume",
+    "website": "https://taveeshsharma.com",
     "social":[
       {
         "name":"facebook",
@@ -39,7 +39,7 @@
       },
       {
         "name":"github",
-        "url":"https://github.com/staveeesh",
+        "url":"https://github.com/staveesh",
         "className":"fa fa-github"
       }
     ]
