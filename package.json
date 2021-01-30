@@ -1,15 +1,17 @@
 {
-  "homepage": "https://staveesh.github.io/react-resume",
-  "name": "personalportfolio",
+  "homepage": "https://staveesh.github.io",
+  "name": "taveesh-sharma",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "anix": "^0.3.3",
     "jquery": "^3.2.1",
+    "marked": "^1.2.8",
     "particles-bg": "^2.3.12",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-ga": "^2.3.5",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "1.0.17"
   },
   "scripts": {

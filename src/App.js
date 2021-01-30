@@ -1,57 +1,57 @@
-import React, { Component } from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
-import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Portfolio from './Components/Portfolio';
-import Testimonials from './Components/Testimonials';
+import React, { Component } from "react";
+import ReactGA from "react-ga";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import About from "./Components/About";
+import Resume from "./Components/Resume";
+import Blog from "./Components/Blog";
+import Testimonials from "./Components/Testimonials";
+import { Switch, Route } from "react-router-dom";
+import BlogPost from "./Components/BlogPost";
 
 class App extends Component {
-
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state = {
-      foo: 'bar',
-      resumeData: {}
-    };
 
-    ReactGA.initialize('UA-110570651-1');
+    ReactGA.initialize("UA-110570651-1");
     ReactGA.pageview(window.location.pathname);
-
-  }
-
-  getResumeData(){
-    $.ajax({
-      url:'./resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
-
-  componentDidMount(){
-    this.getResumeData();
   }
 
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        {/* <Portfolio data={this.state.resumeData.portfolio}/> */}
-        <Testimonials data={this.state.resumeData.testimonials}/>
-        {/* <Contact data={this.state.resumeData.main}/> */}
-        <Footer data={this.state.resumeData.main}/>
+        <Switch>
+          <Route
+            exact
+            path="/"
+            render={(props) => (
+              <div>
+                <Header {...props} data={this.props.data.main} />
+                <About {...props} data={this.props.data.main} />
+                <Blog {...props} data={this.props.data.blogs} />
+                <Resume {...props} data={this.props.data.resume} />
+                <Testimonials {...props} data={this.props.data.testimonials} />
+                <Footer {...props} data={this.props.data.main} />
+              </div>
+            )}
+          />
+          {this.props.data.blogs.posts.map((post) => {
+            var url = "/" + post.title.toLowerCase().split(" ").join("-");
+            return (
+              <Route
+                exact
+                key={post.id}
+                path={url}
+                render={(props) => (
+                  <div>
+                    <BlogPost {...props} id={post.id} />
+                    <Footer {...props} data={this.props.data.main} />
+                  </div>
+                )}
+              />
+            );
+          })}
+        </Switch>
       </div>
     );
   }

@@ -1,180 +1,188 @@
 {
   "main": {
-    "name":"Taveesh Sharma",
-    "description":"Ideas, stories and codes",
-    "image":"profilepic.jpeg",
-    "bio":"I am a Software Engineer with a demonstrated history of working in the financial services industry. My prime skills are Java, Spring Framework, JavaScript, and Python. I have a bachelor of Engineering degree - BE focused in Computer Science from Birla Institute of Technology and Science, Pilani, and I am currently pursuing my Masters degree in Computer Science from University of Cape Town, South Africa.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "name": "Taveesh Sharma",
+    "description": "Ideas, stories and codes",
+    "image": "profilepic.jpeg",
+    "bio": "I am a Software Engineer with a demonstrated history of working in the financial services industry. My prime skills are Java, Spring Framework, JavaScript, and Python. I have a bachelor of Engineering degree - BE focused in Computer Science from Birla Institute of Technology and Science, Pilani, and I am currently pursuing my Masters degree in Computer Science from University of Cape Town, South Africa.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "staveesh08@gmail.com",
-    "phone": "+91-9130986077",
-    "github":"https://github.com/staveesh",
-    "project":"https://github.com/staveesh/react-resume",
-    "address":{
-      "street": "25/8 Cassia Road",
-      "city":"Shipra Suncity",
-      "state":"Indirapuram",
-      "zip": "Ghaziabad"
+    "phone": "+27-0842542142",
+    "github": "https://github.com/staveesh",
+    "project": "https://github.com/staveesh/react-resume",
+    "address": {
+      "street": "Marlborough Way",
+      "city": "Ringwood Drive",
+      "state": "Parklands",
+      "zip": "Cape Town"
     },
     "website": "https://taveeshsharma.com",
-    "social":[
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/taveeshsharma/",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "https://www.facebook.com/taveeshsharma/",
+        "className": "fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com/staveesh",
-        "className":"fa fa-twitter"
+        "name": "twitter",
+        "url": "http://twitter.com/staveesh",
+        "className": "fa fa-twitter"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/taveesh-sharma-9385a8197/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/taveesh-sharma-9385a8197/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/_taveesh_",
-        "className":"fa fa-instagram"
+        "name": "instagram",
+        "url": "http://instagram.com/_taveesh",
+        "className": "fa fa-instagram"
       },
       {
-        "name":"github",
-        "url":"https://github.com/staveesh",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/staveesh",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"I have worked as a backend as well as full-stack engineer, and have acquired the following skills over the years.",
-    "education":[
+  "resume": {
+    "skillmessage": "I have worked as a backend as well as full-stack engineer, and have acquired the following skills over the years.",
+    "education": [
       {
-        "school":"University of Cape Town",
-        "degree":"Masters in Computer Science",
-        "graduated":"July 2020 - Present",
-        "description":"I am currently pursuing my masters degree in Computer Science from University of Cape Town, South Africa. The title of my research is \"Investigating Optimal Internet Data Collection in Low-Resource Networks\"."
+        "school": "University of Cape Town",
+        "degree": "Masters in Computer Science",
+        "graduated": "July 2020 - Present",
+        "description": "I am currently pursuing my masters degree in Computer Science from University of Cape Town, South Africa. The title of my research is \"Investigating Optimal Internet Data Collection in Low-Resource Networks\"."
       },
       {
-        "school":"BITS Pilani",
-        "degree":"BE(Hons.) Computer Science",
-        "graduated":"August 2018",
-        "description":"Courses : Data Structures and Algorithms, Design and Analysis of Algorithms, Computer Networks, Database Management Systems, Object Oriented Programming, Logic in Computer Science, Discrete Structures in Computer Science, Compiler Construction, Data Mining, Machine Learning, Artificial Intelligence, Softwaare Development for Portable Devices."
+        "school": "BITS Pilani",
+        "degree": "BE(Hons.) Computer Science",
+        "graduated": "August 2018",
+        "description": "Courses : Data Structures and Algorithms, Design and Analysis of Algorithms, Computer Networks, Database Management Systems, Object Oriented Programming, Logic in Computer Science, Discrete Structures in Computer Science, Compiler Construction, Data Mining, Machine Learning, Artificial Intelligence, Softwaare Development for Portable Devices."
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"EpayLater",
-        "title":"Software Engineer",
-        "years":"February 2020 - July 2020",
-        "description":"I worked as a backend engineer at EpayLater and wrote REST APIs in Java for Seller Dashboard: A plug and play panel used by OEMs(brands) and distributors to create and accept orders, manage payments, and run promotions. The product's features include - a digital storefront to accept and create orders, creation of transaction requests and payment acceptance (partial and full return/refund), ordering tool for sales representatives, order management, and analytics dashboard. I was one of the key engineers to have worked on Digitalshop (B2B) and Kiranamitra (B2C) - digital solutions using which a retailer(buyer) can order goods from a store(seller), and an end-consumer(buyer) can order goods from a retailer(seller) respectively. I also wrote critical product features which include fetching of nearest sellers based on the geolocation of the buyer (using Google's reverse geocoding API), a high performance near real-time ELK based search engine for lacs of products in the inventory, and implementation of MLM(Multi-level Marketing) within the product."
+        "company": "EpayLater",
+        "title": "Software Engineer",
+        "years": "February 2020 - July 2020",
+        "description": "I worked as a backend engineer at EpayLater and wrote REST APIs in Java for Seller Dashboard: A plug and play panel used by OEMs(brands) and distributors to create and accept orders, manage payments, and run promotions. The product's features include - a digital storefront to accept and create orders, creation of transaction requests and payment acceptance (partial and full return/refund), ordering tool for sales representatives, order management, and analytics dashboard. I was one of the key engineers to have worked on Digitalshop (B2B) and Kiranamitra (B2C) - digital solutions using which a retailer(buyer) can order goods from a store(seller), and an end-consumer(buyer) can order goods from a retailer(seller) respectively. I also wrote critical product features which include fetching of nearest sellers based on the geolocation of the buyer (using Google's reverse geocoding API), a high performance near real-time ELK based search engine for lacs of products in the inventory, and implementation of MLM(Multi-level Marketing) within the product."
       },
-      {   
-        "company":"PayPal",
-        "title":"Software Engineer",
-        "years":"August 2018 - October 2019",
-        "description":"As part of Risk Analytical Data services team, I wrote critical business functionalities for FAST-R : A self service tool for analysts to deploy batch output to live. Contributed to an initiative that helped reduce TTM (Time to Market) by 275 days of annual developed effort. Developed a dashboard to track team's progress using Python as part of a Hackathon. The dashboard was used to track number of deployments, average time per deployment, and time taken for each deployment. I also attended GIDS (Great International Developer Summit) 2019, held at IISc Bangalore and presented the highlights of the summit to the org. I was involved in various centre-wide activities like the Innovation Lab, Hackathons, and event organizations."
+      {
+        "company": "PayPal",
+        "title": "Software Engineer",
+        "years": "August 2018 - October 2019",
+        "description": "As part of Risk Analytical Data services team, I wrote critical business functionalities for FAST-R : A self service tool for analysts to deploy batch output to live. Contributed to an initiative that helped reduce TTM (Time to Market) by 275 days of annual developed effort. Developed a dashboard to track team's progress using Python as part of a Hackathon. The dashboard was used to track number of deployments, average time per deployment, and time taken for each deployment. I also attended GIDS (Great International Developer Summit) 2019, held at IISc Bangalore and presented the highlights of the summit to the org. I was involved in various centre-wide activities like the Innovation Lab, Hackathons, and event organizations."
       }
     ],
     "internships": [
       {
-        "company" : "PayPal",
-        "title" : "Intern",
+        "company": "PayPal",
+        "title": "Intern",
         "years": "July 2017 - December 2017",
-        "description" : "As part of Decision Analytics and Management team, I worked on profiling PayPal's sellers and developed an ARIMA time-series based model to forecast PayPal's losses due to claims filed by buyers. This internship was part of the Practice School programme of BITS Pilani. At the end of the internship, I appeared in interviews after which I got selected as a Software Engineer at PayPal. "
+        "description": "As part of Decision Analytics and Management team, I worked on profiling PayPal's sellers and developed an ARIMA time-series based model to forecast PayPal's losses due to claims filed by buyers. This internship was part of the Practice School programme of BITS Pilani. At the end of the internship, I appeared in interviews after which I got selected as a Software Engineer at PayPal. "
       },
       {
-        "company" : "Indian Red Cross Society",
-        "title" : "Summer Intern",
+        "company": "Indian Red Cross Society",
+        "title": "Summer Intern",
         "years": "May 2016- July 2016",
-        "description" : "I worked in IFRC (International Federation Of Red Cross and Red Crescent Societies) and assisted in the adoption process of an Online Learning Platform for Indian Red Cross staff and volunteers. I also provided support to ODK (Open Data Kit) training scheduled for Indian Red Cross state branches, and tailored Ammado online donation application for the needs of Indian Red Cross. In a group of 3, we analysed the IT requirements in the IFRC CCST office and proposed necessary enhancements."
+        "description": "I worked in IFRC (International Federation Of Red Cross and Red Crescent Societies) and assisted in the adoption process of an Online Learning Platform for Indian Red Cross staff and volunteers. I also provided support to ODK (Open Data Kit) training scheduled for Indian Red Cross state branches, and tailored Ammado online donation application for the needs of Indian Red Cross. In a group of 3, we analysed the IT requirements in the IFRC CCST office and proposed necessary enhancements."
       }
     ],
-    "teaching_experience": [
-
-    ],
-    "skills":[
+    "teaching_experience": [],
+    "skills": [
       {
-        "name":"Java",
-        "level":"90%"
+        "name": "Java",
+        "level": "90%"
       },
       {
-        "name":"Python",
-        "level":"70%"
+        "name": "Python",
+        "level": "70%"
       },
       {
-        "name":"C++",
-        "level":"70%"
+        "name": "C++",
+        "level": "70%"
       },
       {
-        "name":"JavaScript",
-        "level":"70%"
+        "name": "JavaScript",
+        "level": "70%"
       },
       {
-        "name" : "Reactjs",
+        "name": "Reactjs",
         "level": "60%"
       },
       {
-        "name":"ElasticSearch",
-        "level":"70%"
+        "name": "ElasticSearch",
+        "level": "70%"
       },
       {
         "name": "Postgresql",
-        "level" : "80%"
+        "level": "80%"
       },
       {
-        "name":"MongoDB",
-        "level":"50%"
+        "name": "MongoDB",
+        "level": "50%"
       }
     ]
   },
-  "portfolio":{
+  "blogs": {
+    "posts": [
+      {
+        "id": 1,
+        "title": "How to build a static blog site using ReactJS",
+        "category": "ReactJS",
+        "image": "thumbnail.PNG"
+      }
+    ]
+  },
+  "portfolio": {
     "projects": [
       {
-        "title":"Roburse",
+        "title": "Roburse",
         "category": "Robotics and IoT",
-        "image":"work-1.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "image": "work-1.jpg",
+        "url": "https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"work-2.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "work-2.jpg",
+        "url": "http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"work-3.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "work-3.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"work-4.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "work-4.jpg",
+        "url": "http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"work-5.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "work-5.jpg",
+        "url": "http://www.smirkspace.com"
       },
       {
-        "title":"nsansa",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"work-6.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "nsansa",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "work-6.jpg",
+        "url": "http://www.smirkspace.com"
       }
     ]
   },
-  "testimonials" : {
+  "testimonials": {
     "testimonials": [
       {
-        "image" : "akshat.jpeg",
+        "image": "akshat.jpeg",
         "user": "Akshat Saxena - Co-Founder, EpayLater",
         "text": "Taveesh is an extremely hard working and diligent professional. He is a quick learner and possesses ability to anticipate scale-related changes and thus designs future ready systems. He is an effective communicator and a great team player. He can think clearly and plan his tasks well."
       },
       {
-        "image" : "atishay.jpeg",
+        "image": "atishay.jpeg",
         "user": "Atishay Kumar - CTO, EpayLater",
         "text": "Taveesh is a committed and smart individual. He works hard, understand all the requirements and has ability to work independently. He learnt new technologies quickly and independently his work had direct impact on our business. It was a pleasure to work with him."
       },
